@@ -16,6 +16,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "lint": "eslint '*/**/*.{js, jsx, ts,tsx}'",
+    "lint:fix": "eslint '*/**/*.{js,jsx,ts,tsx,css}' --quiet --fix",
+    "pretty": "prettier --write \"**/*.{js,jsx,ts,tsx,json,mjs,css}\"",
+    "pc": "npm run lint --fix && npm run pretty",
     "prepare": "husky"
   },
   "eslintConfig": {
