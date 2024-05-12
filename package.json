@@ -9,6 +9,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
+    "reactflow": "^11.11.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -45,7 +46,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "globals": "^15.2.0",
-    "prettier": "3.2.5",
-    "husky": "^9.0.11"
+    "husky": "^9.0.11",
+    "prettier": "3.2.5"
   }
 }
